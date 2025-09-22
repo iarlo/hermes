@@ -1,0 +1,50 @@
+{
+  "name": "@hermes/core",
+  "description": "Pacote principal do Hermes",
+  "private": true,
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/main.js",
+  "module": "./dist/main.js",
+  "exports": {
+    ".": {
+      "import": "./dist/main.js",
+      "types": "./dist/main.d.ts"
+    }
+  },
+  "version": "0.0.1",
+  "packageManager": "bun@1.2.20",
+  "author": {
+    "name": "Bruno Sá",
+    "email": "iarlo.sa@dcomp.ufs.br",
+    "url": "https://github.com/iarlo"
+  },
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "Bruno Sá",
+      "email": "iarlo.sa@dcomp.ufs.br",
+      "url": "https://github.com/iarlo"
+    }
+  ],
+  "scripts": {
+    "postinstall": "tsc",
+    "build": "tsc",
+    "lint": "eslint . --max-warnings 0",
+    "generate:component": "turbo gen react-component",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "@hermes/eslint-config": "workspace:*",
+    "@hermes/typescript-config": "workspace:*",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
