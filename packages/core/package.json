@@ -17,7 +17,7 @@
       "types": "./dist/main.d.ts"
     }
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packageManager": "bun@1.2.20",
   "author": {
     "name": "Bruno Sá",
@@ -43,8 +43,8 @@
     "date-fns": "^4.1.0"
   },
   "devDependencies": {
-    "@iarlo/hermes-eslint-config": "workspace:*",
-    "@iarlo/hermes-typescript-config": "workspace:*",
+    "@iarlo/hermes-eslint-config": "^1.0.0",
+    "@iarlo/hermes-typescript-config": "^1.0.0",
     "@types/bun": "latest"
   },
   "peerDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "@iarlo/hermes-react-adapter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "files": [
     "dist"
@@ -25,8 +25,8 @@
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@iarlo/hermes-eslint-config": "workspace:*",
-    "@iarlo/hermes-typescript-config": "workspace:*",
+    "@iarlo/hermes-eslint-config": "^1.0.0",
+    "@iarlo/hermes-typescript-config": "^1.0.0",
     "@types/node": "^22.15.3",
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.1",
@@ -34,7 +34,7 @@
     "typescript": "5.9.2"
   },
   "dependencies": {
-    "@hermes/core": "workspace:*",
+    "@iarlo/hermes-core": "^1.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   }

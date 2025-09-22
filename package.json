@@ -7,6 +7,9 @@
     "email": "iarlo.sa@dcomp.ufs.br",
     "url": "https://github.com/iarlo"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "license": "Apache-2.0",
   "maintainers": [
     {
